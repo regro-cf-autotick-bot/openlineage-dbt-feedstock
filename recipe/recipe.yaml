@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: openlineage-dbt
-  version: "1.54.0"
+  version: "1.55.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/OpenLineage/OpenLineage/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 6a619be5a094f126de1da83419020cb757029c669d9384bac407018d4e3f7101
+  sha256: e2183a44767491b1b9f59dba56ebf54c575a9d79181d8e0d806f56e4f2a92cb6
 
 build:
   number: 0
